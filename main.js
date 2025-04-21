@@ -144,7 +144,7 @@ function updateCamera(t) {
 
 const boxGroup = new THREE.Group();
 scene.add(boxGroup);
-const numBoxes = 55;
+const numBoxes = 255;
 const size = 0.075;
 const boxGeo = new THREE.BoxGeometry(size, size, size);
 for (let i = 0; i < numBoxes; i += 1) {
